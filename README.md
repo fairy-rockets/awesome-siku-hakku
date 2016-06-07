@@ -6,4 +6,4 @@
 
 [お試しはこちら](http://ledyba.github.io/siku-hakku/)
 
-![](https://raw.githubusercontent.com/ledyba/siku-hakku/master/sample.png)
+![お試しはこちら](https://raw.githubusercontent.com/ledyba/siku-hakku/master/sample.png))

@@ -1,0 +1,117 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>四苦八苦</title>
+        <meta name="description" content="">
+        <!-- Place favicon.ico in the root directory -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+      <div class="container">
+
+        <!-- The justified navigation menu is meant for single line per list item.
+             Multiple lines will require custom code not provided by Bootstrap. -->
+        <div class="masthead">
+          <h3 class="text-muted">Project 一切皆苦</h3>
+        </div>
+
+        <!-- Jumbotron -->
+        <div class="jumbotron">
+          <h1>四苦八苦なう</h1>
+          <p class="lead">四苦八苦（しくはっく）とは、仏教における苦の分類です。あなたも四苦八苦で苦しんでいることを、とりあえずTwitterでいい感じにシェアしましょう。</p>
+          <p><a class="btn btn-lg btn-success" href="http://www.senjuji.or.jp/hitokuchi/103_110.php" role="button">Get started today</a></p>
+        </div>
+
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-lg-3">
+            <h2>生</h2>
+            <p class="text-danger">生まれること。</p>
+            <p><a class="btn btn-primary" id="btn-sei" href="#" role="button">この苦しみを呟く&raquo;</a></p>
+          </div>
+          <div class="col-lg-3">
+            <h2>老</h2>
+            <p class="text-danger">老いること。</p>
+            <p><a class="btn btn-primary" id="btn-oi" href="#" role="button">この苦しみを呟く &raquo;</a></p>
+          </div>
+          <div class="col-lg-3">
+            <h2>病</h2>
+            <p class="text-danger">病気になること。</p>
+            <p><a class="btn btn-primary" id="btn-yamai" href="#" role="button">この苦しみを呟く &raquo;</a></p>
+          </div>
+          <div class="col-lg-3">
+            <h2>死</h2>
+            <p class="text-danger">死ぬこと。</p>
+            <p><a class="btn btn-primary" id="btn-shi" href="#" role="button">この苦しみを呟く &raquo;</a></p>
+          </div>
+          <div class="col-lg-3">
+            <h2>愛別離苦</h2>
+            <p class="text-danger">愛する者と離れざるをえないこと。</p>
+            <p><a class="btn btn-primary" id="btn-aibetsuriku" href="#" role="button">この苦しみを呟く&raquo;</a></p>
+          </div>
+          <div class="col-lg-3">
+            <h2>怨憎会苦</h2>
+            <p class="text-danger">怨み憎んでいる人とあわないといけないこと。</p>
+            <p><a class="btn btn-primary" id="btn-onzoueku" href="#" role="button">この苦しみを呟く &raquo;</a></p>
+          </div>
+          <div class="col-lg-3">
+            <h2>求不得苦</h2>
+            <p class="text-danger">欲しいものが得られないこと。</p>
+            <p><a class="btn btn-primary" id="btn-gufutokuku" href="#" role="button">この苦しみを呟く &raquo;</a></p>
+          </div>
+          <div class="col-lg-3">
+            <h2>五蘊盛苦</h2>
+            <p class="text-danger">人間の肉体と精神が思うがままにならないこと。</p>
+            <p><a class="btn btn-primary" id="btn-gounjoutoku" href="#" role="button">この苦しみを呟く &raquo;</a></p>
+          </div>
+        </div>
+
+        <!-- Site footer -->
+        <footer class="footer">
+          <p>&copy; 2016 ψ(プサイ) / ちとせ</p>
+        </footer>
+        <script>
+          function post(name) {
+            window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(name+"で苦しいなう #四苦八苦なう"));
+          }
+          $("#btn-sei").on("click", function(){
+            post("死");
+          });
+          $("#btn-oi").on("click", function(){
+            post("老");
+          });
+          $("#btn-yamai").on("click", function(){
+            post("病");
+          });
+          $("#btn-shi").on("click", function(){
+            post("死");
+          });
+          $("#btn-aibetsuriku").on("click", function(){
+            post("愛別離苦");
+          });
+          $("#btn-onzoueku").on("click", function(){
+            post("怨憎会苦");
+          });
+          $("#btn-gufutokuku").on("click", function(){
+            post("求不得苦");
+          });
+          $("#btn-gounjoutoku").on("click", function(){
+            post("五蘊盛苦");
+          });
+        </script>
+
+      </div> <!-- /container -->
+
+    </body>
+</html>

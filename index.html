@@ -82,32 +82,32 @@
           <p>&copy; 2016 <a href="http://ledyba.org/">ψ(プサイ)</a> / ちとせ</p>
         </footer>
         <script>
-          function post(name) {
-            window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(name+"で苦しいなう #四苦八苦なう http://ledyba.github.io/siku-hakku/"));
+          function post(name,desc) {
+            window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(name+"で苦しいなう ("+name+": "+desc+") #四苦八苦なう http://ledyba.github.io/siku-hakku/"));
           }
           $("#btn-sei").on("click", function(){
-            post("死");
+            post("生", "生まれること");
           });
           $("#btn-oi").on("click", function(){
-            post("老");
+            post("老", "身体が老いること");
           });
           $("#btn-yamai").on("click", function(){
-            post("病");
+            post("病", "病気になること");
           });
           $("#btn-shi").on("click", function(){
-            post("死");
+            post("死", "死ぬこと");
           });
           $("#btn-aibetsuriku").on("click", function(){
-            post("愛別離苦");
+            post("愛別離苦", "愛する者と離れざるをえないこと");
           });
           $("#btn-onzoueku").on("click", function(){
-            post("怨憎会苦");
+            post("怨憎会苦", "怨み憎んでいる人とあわないといけないこと");
           });
           $("#btn-gufutokuku").on("click", function(){
-            post("求不得苦");
+            post("求不得苦", "欲しいものが得られないこと");
           });
           $("#btn-gounjoutoku").on("click", function(){
-            post("五蘊盛苦");
+            post("五蘊盛苦", "人間の肉体と精神が思うがままにならないこと");
           });
         </script>
 

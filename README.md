@@ -4,6 +4,6 @@
 
 画面上に過去2000年の知見から分類された典型的な苦しみがリストアップされていて、それを適当にクリックするだけで仲間にあなたの苦しみをふわっとした炎上無縁な感じで伝えることができます。
 
-[早速苦しみをつぶやく](http://ledyba.github.io/siku-hakku/)
+[早速苦しみをつぶやく](http://ledyba.github.io/awesome-siku-hakku/)
 
-[![](https://raw.githubusercontent.com/ledyba/siku-hakku/master/sample.png)](http://ledyba.github.io/siku-hakku/)
+[![](https://raw.githubusercontent.com/ledyba/siku-hakku/master/sample.png)](http://ledyba.github.io/awesome-siku-hakku/)

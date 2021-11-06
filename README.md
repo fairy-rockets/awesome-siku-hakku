@@ -6,4 +6,4 @@
 
 [早速苦しみをつぶやく](https://fairy-rockets.github.io/awesome-siku-hakku/)
 
-[![](https://raw.githubusercontent.com/fairy-rockets/siku-hakku/master/sample.png)](https://fairy-rockets.github.io/awesome-siku-hakku/)
+[![](./sample.png)](https://fairy-rockets.github.io/awesome-siku-hakku/)
